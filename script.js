@@ -116,6 +116,8 @@ startButton.addEventListener("click", ()=>{
     console.clear()
     questionList.innerHTML = ''
     result.style.display = "none"
+    attempted = 0
+    score = 0
     container.style.display = "flex"
     container.style.flexDirection = "column"
     container.style.alignItems = "center"
