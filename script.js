@@ -96,7 +96,7 @@ function updateContainer(questions){
             if (attempted > 9){
                 container.style.display = "none"   
                 result.style.display = "block"
-                result.innerHTML = "Your score: " + score 
+                result.innerHTML = "Your score: " + score +"/10"
             }
         })
     })
