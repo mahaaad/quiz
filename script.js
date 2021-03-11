@@ -115,6 +115,8 @@ function getRequest(){
 startButton.addEventListener("click", ()=>{
     console.clear()
     questionList.innerHTML = null
-    container.style.display = "block"
+    container.style.display = "flex"
+    container.style.flexDirection = "column"
+    container.style.alignItems = "center"
     getRequest()
 })
